@@ -1,0 +1,15 @@
+         {{ block title }}
+   <p align="center">General Topic</p>
+{{ endblock }}
+{{ block content }}
+         <link href="{% static 'global.css' %}" rel="stylesheet">
+<link href="{% static 'tab.css' %}" rel="stylesheet">
+<div style="background-color: #CFCFCF; color:black;border: 1px solid #000; border-radius:18px; padding: 4px ; margin: 2px">
+<p align="justify">
+This study focuses on <b>financial investment behavior</b>. You do not need expert knowledge on this topic, all relevant information are provided. The study consists of two parts. In the first part you have to take <b>simple investment decisions </b>.
+The second part is a small general questionnaire. The entire study will take about <b>15 minutes</b>.
+</p>
+</div>
+    {{ next_button }}
+
+{{ endblock }}

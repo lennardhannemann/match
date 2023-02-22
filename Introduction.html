@@ -1,0 +1,21 @@
+{{ block title  }}
+
+<p align="center">
+Introduction
+</p>
+{{ endblock }}
+{{ block content }}
+<link href="{% static 'global.css' %}" rel="stylesheet">
+<link href="{% static 'tab.css' %}" rel="stylesheet">
+<div style="background-color: #CFCFCF; color:black;border: 1px solid #000; border-radius:18px; padding:4px; margin: 2px">
+<p align="justify">
+Welcome to this experiment and thank you for participating. Please take your time and read all instructions and questions carefully. All your answers will be treated anonymously and
+will be used for research purposes only.
+Please do not use the "Back" or "Refresh" buttons.
+</p>
+
+</div>
+     {{ formfields }}
+    {{ next_button }}
+
+{{ endblock }}
